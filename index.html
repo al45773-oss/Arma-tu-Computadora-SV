@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arma tu Computadora</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>COMPUTER CENTER</h1>
@@ -18,33 +19,35 @@
             <div class="form-group">
                 <label></label>
                 <div class="radio-group">
-                    <label><input type="radio" name="" value="">Minitorre ($700 MXN)</label>
-                    <label><input type="radio" name="" value="">Torre ($2,200 MXN)</label>
-                    <label><input type="radio" name="" value="">Desktop ($600 MXN)</label>
-                    <label><input type="radio" name="" value="">Gamer ($3,450 MXN)</label>
+                    <label><input type="radio" name="gabinete" value="700">Minitorre ($700 MXN)</label>
+                    <label><input type="radio" name="gabinete" value="2200">Torre ($2,200 MXN)</label>
+                    <label><input type="radio" name="gabinete" value="600">Desktop ($600 MXN)</label>
+                    <label><input type="radio" name="gabinete" value="3450">Gamer ($3,450 MXN)</label>
                 </div>
             </div>
 <br>
 
-<section>
-    <h3 class="Procesador">Procesador</h3>
+<section class="form-section">
+    <h3>Procesador</h3>
     <div class="radio-group">
-        <label><input type="radio" name="" value="">Celeron ($900 MXN)</label>
-        <label><input type="radio" name="" value="">Intel i3 (1,450 MXN)</label>
-        <label><input type="radio" name="" value="">Intel i5 (3,500 MXN)</label>
-        <label><input type="radio" name="" value="">Intel i7 ($5,560 MXN)</label>
+        <label><input type="radio" name="procesador" value="900">Celeron ($900 MXN)</label>
+        <label><input type="radio" name="procesador" value="1450">Intel i3 (1,450 MXN)</label>
+        <label><input type="radio" name="procesador" value="3500">Intel i5 (3,500 MXN)</label>
+        <label><input type="radio" name="procesador" value="5560">Intel i7 ($5,560 MXN)</label>
     </div>
 </section>
 <br>
-    <div class="Disco-duro">
-        <label for="disco-duro">Disco Duro</label>
-        <select id="disco" name="disco">
-            <option value="">500GB ($500 MXN)</option>
-            <option value="">750GB ($800 MXN)</option>
-            <option value="">1TB ($1,000 MXN)</option>
-            <option value="">250 GB SSD ($900 MXN)</option>
-        </select>
-    </div>
+
+<section class="form-section">
+    <h3>Disco Duro</h3>
+    <select id="disco" name="disco">
+        <option value="500">500GB ($500 MXN)</option>
+        <option value="800">750GB ($800 MXN)</option>
+        <option value="1000">1TB ($1,000 MXN)</option>
+        <option value="900">250GB SSD ($900 MXN)</option> 
+        <option value="1380">500 GB SSD ($1,380 MXN)</option>
+    </select>
+</section>
 
     </form>
 </body>
