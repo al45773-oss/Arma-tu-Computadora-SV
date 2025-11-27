@@ -20,5 +20,16 @@ h2{
 }
 
 h3{
-    color: #b99a20;
+    color: #3db6ba;
 }
+
+/* Secciones del Formulario */
+.form-section{
+    background-color: #1a1a1a;
+    border: 2px solid #b300ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Radio y Checkbox */
