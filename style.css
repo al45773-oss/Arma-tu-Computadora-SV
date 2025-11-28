@@ -33,3 +33,44 @@ h3{
 }
 
 /* Radio y Checkbox */
+label{
+    font-size: 16px;
+}
+
+.radio-group label{
+display: block;
+margin: 5px 0;
+}
+
+/* Select */
+select{
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #b300ff;
+    background-color: white;
+}
+
+/* Botón */
+button{
+    background-color: #b300ff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover{
+background-color: #8a00cc;
+}
+
+/* Resultado */
+
+#resultado{
+    font-size: 24px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
